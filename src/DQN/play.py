@@ -8,9 +8,8 @@ import torch.optim as optim
 
 from poke_env import RandomPlayer, Player
 from poke_env.battle.abstract_battle import AbstractBattle
-from train import DQN
-from train import RLPlayer
-
+from DQN import DQN
+from RLPlayer import RLPlayer
 
 # Load model
 model = DQN(4, 4)
