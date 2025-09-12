@@ -1,17 +1,24 @@
-# Pokemon Bot Project
+# Pokémon Bot Project
 
-This project allows you to **train and use a bot for Pokémon battles** using the [Pokémon Showdown](https://github.com/smogon/pokemon-showdown.git) platform.
+This project allows you to **train and use a DQN-based Pokémon bot** for battles using the [Pokémon Showdown](https://github.com/smogon/pokemon-showdown.git) platform.
+
+---
 
 ## Features
-- Train your own DQN-based Pokémon bot
-- Integrate with Pokémon Showdown for battles
-- Modular structure for easy extension
+- Train your own reinforcement learning Pokémon bot
+- Connect and battle via Pokémon Showdown
+- Modular structure for easy extension and experimentation
+
+---
 
 ## Setup
 
-Clone the Pokémon Showdown repository:
-
+### 1. Clone Pokémon Showdown
 ```bash
 git clone https://github.com/smogon/pokemon-showdown.git
-git clone https://github.com/yasinaydin14/my_pokemon_bot.git
-cd my_pokemon_bot
+cd pokemon-showdown
+npm install
+cp config/config-example.js config/config.js
+node pokemon-showdown start --no-security
+
+The server will run at http://localhost:8000. Keep this terminal open while training or testing your bot.
