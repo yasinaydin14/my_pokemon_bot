@@ -35,7 +35,7 @@ async def train():
 
     rand_player = RandomPlayer(battle_format="gen9randombattle")
 
-    n_episodes = 2000
+    n_episodes = 1000
     target_update_freq = 20
 
     for ep in range(1, n_episodes + 1):
