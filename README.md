@@ -20,12 +20,5 @@ cd pokemon-showdown
 npm install
 cp config/config-example.js config/config.js
 node pokemon-showdown start --no-security
-
-> The line “The server will run…” is **outside** the code block and will render as regular text.
-
----
-
-If you want, I can **rewrite your full README snippet** with all Bash blocks properly closed so nothing appears inside them incorrectly.  
-
-Do you want me to do that?
-
+````
+The server will run at http://localhost:8000. Keep this terminal open while testing.
