@@ -16,14 +16,20 @@ This project allows you to **train and use a DQN-based Pokémon bot** for battle
 ### 1. Clone Pokémon Showdown
 ```bash
 git clone https://github.com/smogon/pokemon-showdown.git
+````
+### 2. Install Requirements
+In Preparation
+
+
+## Training the Bot
+Run Pokemon Showdown Server
+```bash
 cd pokemon-showdown
 npm install
 cp config/config-example.js config/config.js
 node pokemon-showdown start --no-security
 ````
 The server will run at http://localhost:8000. Keep this terminal open while testing.
-
-## Training the Bot
 Once the Showdown server is running, start training your bot:
 ```bash
 python3 src/DQN/train.py
