@@ -21,4 +21,4 @@ npm install
 cp config/config-example.js config/config.js
 node pokemon-showdown start --no-security
 
-The server will run at http://localhost:8000. Keep this terminal open while training or testing your bot.
+  The server will run at http://localhost:8000. Keep this terminal open while training or testing your bot.
