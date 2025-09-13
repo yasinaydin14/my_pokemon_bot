@@ -1,13 +1,6 @@
-import asyncio
-import random
-
-import numpy as np
 import torch
 import torch.nn as nn
-import torch.optim as optim
 
-from poke_env import RandomPlayer, Player
-from poke_env.battle.abstract_battle import AbstractBattle
 
 # ---- Neural network ----
 class DQN(nn.Module):
